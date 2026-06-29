@@ -3,21 +3,21 @@ import { Users, Briefcase, Settings, Zap, CheckCircle2 } from 'lucide-react';
 
 
 const fleet5Seater = [
-  { name: 'Suzuki Swift', image: 'https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&q=80&w=800', type: 'Hatchback', trans: 'Manual', seats: 5, lug: 2, fuel: 'Petrol' },
-  { name: 'Maruti Baleno', image: 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&q=80&w=800', type: 'Premium Hatchback', trans: 'Manual', seats: 5, lug: 3, fuel: 'Petrol' },
-  { name: 'Toyota Glanza', image: 'https://images.unsplash.com/photo-1550355291-bbee04a92027?auto=format&fit=crop&q=80&w=800', type: 'Premium Hatchback', trans: 'Manual', seats: 5, lug: 3, fuel: 'Petrol' },
-  { name: 'Maruti Fronx', image: 'https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=800', type: 'Compact SUV', trans: 'Manual', seats: 5, lug: 3, fuel: 'Petrol' },
-  { name: 'Maruti Brezza', image: 'https://images.unsplash.com/photo-1563720225384-9c0f67922278?auto=format&fit=crop&q=80&w=800', type: 'Compact SUV', trans: 'Manual/Auto', seats: 5, lug: 3, fuel: 'Petrol' },
-  { name: 'Tata Punch', image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80&w=800', type: 'Compact SUV', trans: 'Manual', seats: 5, lug: 2, fuel: 'Petrol' },
-  { name: 'Tata Tiago', image: 'https://images.unsplash.com/photo-1532581140115-3e355d1ed1de?auto=format&fit=crop&q=80&w=800', type: 'Hatchback', trans: 'Manual', seats: 5, lug: 2, fuel: 'Petrol' },
+  { name: 'Suzuki Swift', image: 'https://media.umbraco.io/suzuki-gb/smtlqp3h/image53.png', type: 'Hatchback', trans: 'Manual', seats: 5, lug: 2, fuel: 'Petrol' },
+  { name: 'Maruti Baleno', image: 'https://imgd.aeplcdn.com/642x336/n/cw/ec/102663/baleno-exterior-right-front-three-quarter-69.png?isig=0&q=80', type: 'Premium Hatchback', trans: 'Manual', seats: 5, lug: 3, fuel: 'Petrol' },
+  { name: 'Toyota Glanza', image: 'https://imgd.aeplcdn.com/1920x1080/n/cw/ec/112839/glanza-exterior-right-front-three-quarter-6.png?isig=0&q=80&q=80', type: 'Premium Hatchback', trans: 'Manual', seats: 5, lug: 3, fuel: 'Petrol' },
+  { name: 'Maruti Fronx', image: 'https://imgd.aeplcdn.com/1920x1080/n/cw/ec/130591/fronx-exterior-right-front-three-quarter-109.png?isig=0&q=80&q=80', type: 'Compact SUV', trans: 'Manual', seats: 5, lug: 3, fuel: 'Petrol' },
+  { name: 'Maruti Brezza', image: 'https://stimg.cardekho.com/pwa/img/quickverdict/Brezza-removebg-preview.png', type: 'Compact SUV', trans: 'Manual/Auto', seats: 5, lug: 3, fuel: 'Petrol' },
+  { name: 'Tata Punch', image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/172825/punch-exterior-right-front-three-quarter-250.png?isig=0&q=80&q=80', type: 'Compact SUV', trans: 'Manual', seats: 5, lug: 2, fuel: 'Petrol' },
+  { name: 'Tata Tiago', image: 'https://s7ap1.scene7.com/is/image/tatamotors/MysticSeaDT-0?$PO-750-500-S$&fit=crop&fmt=webp-alpha', type: 'Hatchback', trans: 'Manual', seats: 5, lug: 2, fuel: 'Petrol' },
 ];
 
 const fleet7Seater = [
-  { name: 'Toyota Innova Crysta', image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80&w=800', type: 'Premium SUV', trans: 'Manual/Auto', seats: 7, lug: 3, fuel: 'Diesel' },
-  { name: 'Toyota Innova', image: 'https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=800', type: 'MUV', trans: 'Manual', seats: 7, lug: 3, fuel: 'Diesel' },
-  { name: 'Maruti Ertiga', image: 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&q=80&w=800', type: 'MUV', trans: 'Manual', seats: 7, lug: 3, fuel: 'Petrol/CNG' },
-  { name: 'Tata Hexa', image: 'https://images.unsplash.com/photo-1563720225384-9c0f67922278?auto=format&fit=crop&q=80&w=800', type: 'SUV', trans: 'Manual', seats: 7, lug: 4, fuel: 'Diesel' },
-  { name: 'Mahindra XUV700', image: 'https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&q=80&w=800', type: 'Premium SUV', trans: 'Auto', seats: 7, lug: 3, fuel: 'Diesel' },
+  { name: 'Toyota Innova Crysta', image: 'https://imgd.aeplcdn.com/1280x720/n/cw/ec/51482/toyota-innova-crysta-facelift-left-front-three-quarter1.jpeg', type: 'Premium SUV', trans: 'Manual/Auto', seats: 7, lug: 3, fuel: 'Diesel' },
+  { name: 'Toyota Innova', image: 'https://cdn.carhp.in/toyota/toyota_innova_hycross_platinum_white_pearl.jpg?format=webp&width=800&q=75', type: 'MUV', trans: 'Manual', seats: 7, lug: 3, fuel: 'Diesel' },
+  { name: 'Maruti Ertiga', image: 'https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Ertiga-Tour/9617/1762858404297/front-left-side-47.jpg', type: 'MUV', trans: 'Manual', seats: 7, lug: 3, fuel: 'Petrol/CNG' },
+  { name: 'Tata Hexa', image: 'https://imgd.aeplcdn.com/664x374/cw/ec/26351/Tata-Hexa-Right-Front-Three-Quarter-96011.jpg?v=201711021421&q=80', type: 'SUV', trans: 'Manual', seats: 7, lug: 4, fuel: 'Diesel' },
+  { name: 'Mahindra XUV700', image: 'https://stimg.cardekho.com/images/carexteriorimages/630x420/Mahindra/XUV700/10794/1762509966753/front-left-side-47.jpg', type: 'Premium SUV', trans: 'Auto', seats: 7, lug: 3, fuel: 'Diesel' },
 ];
 
 const CarGrid = ({ cars, title, desc }: { cars: any[], title: string, desc: string }) => (
@@ -82,14 +82,14 @@ export default function Fleet() {
     <div className="min-h-screen bg-background flex flex-col">
       <div className="bg-primary text-white pt-32 pb-20 px-4">
         <div className="container mx-auto text-center max-w-3xl">
-          <motion.h1 
+          <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="text-4xl md:text-6xl font-heading font-bold mb-6"
           >
             Our Premium <span className="text-secondary">Fleet</span>
           </motion.h1>
-          <motion.p 
+          <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
@@ -101,23 +101,23 @@ export default function Fleet() {
       </div>
 
       <div className="container mx-auto px-4 md:px-6 py-20">
-        <CarGrid 
-          title="5 Seater Premium Cars" 
+        <CarGrid
+          title="5 Seater Premium Cars"
           desc="Perfect for city drives, small families, and weekend getaways."
-          cars={fleet5Seater} 
+          cars={fleet5Seater}
         />
-        
-        <CarGrid 
-          title="7 Seater Luxury SUVs" 
+
+        <CarGrid
+          title="7 Seater Luxury SUVs"
           desc="Spacious, comfortable, and ideal for larger families and outstation trips."
-          cars={fleet7Seater} 
+          cars={fleet7Seater}
         />
 
         <div className="mb-24 bg-white rounded-[2.5rem] overflow-hidden shadow-xl flex flex-col lg:flex-row">
           <div className="lg:w-1/2 h-[400px] lg:h-auto relative">
-            <img 
-              src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&q=80&w=1000" 
-              alt="Tempo Traveller" 
+            <img
+              src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&q=80&w=1000"
+              alt="Tempo Traveller"
               className="w-full h-full object-cover"
             />
           </div>
@@ -145,9 +145,9 @@ export default function Fleet() {
 
         <div className="bg-primary rounded-[2.5rem] overflow-hidden shadow-2xl flex flex-col lg:flex-row-reverse text-white">
           <div className="lg:w-1/2 h-[400px] lg:h-auto relative">
-            <img 
-              src="https://images.unsplash.com/photo-1570125909232-eb263c188f7e?auto=format&fit=crop&q=80&w=1000" 
-              alt="Luxury Bus" 
+            <img
+              src="https://images.unsplash.com/photo-1570125909232-eb263c188f7e?auto=format&fit=crop&q=80&w=1000"
+              alt="Luxury Bus"
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-primary/80 to-transparent lg:hidden" />
