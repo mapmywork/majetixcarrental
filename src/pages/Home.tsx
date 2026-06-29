@@ -1,5 +1,4 @@
 import { Hero } from '../sections/Hero';
-import { TrustBar } from '../sections/TrustBar';
 import { FleetPreview } from '../sections/FleetPreview';
 import { ServicesPreview } from '../sections/ServicesPreview';
 import { WhyChooseUs } from '../sections/WhyChooseUs';
@@ -12,7 +11,6 @@ export default function Home() {
   return (
     <div className="flex flex-col">
       <Hero />
-      <TrustBar />
       <FleetPreview />
       <ServicesPreview />
       <WhyChooseUs />

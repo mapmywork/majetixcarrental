@@ -1,10 +1,10 @@
 import { motion } from 'framer-motion';
-import { Plane, Car, Users, MapPin, Building2, Heart } from 'lucide-react';
+import { Plane, Car, Calendar, MapPin, Building2, Heart } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const services = [
   { icon: Car, title: 'Self Drive Cars', desc: 'Enjoy the freedom of driving yourself.' },
-  { icon: Users, title: 'Chauffeur Driven', desc: 'Relax while our professional drivers take the wheel.' },
+  { icon: Calendar, title: 'Long Term Rentals', desc: 'Flexible car rentals for a month or longer.' },
   { icon: Plane, title: 'Airport Transfers', desc: 'Punctual pickup and drop-off at the airport.' },
   { icon: MapPin, title: 'Outstation Trips', desc: 'Comfortable journeys for long-distance travel.' },
   { icon: Building2, title: 'Corporate Travel', desc: 'Reliable mobility solutions for businesses.' },

@@ -5,7 +5,7 @@ import { Users, Briefcase, Settings, Zap } from 'lucide-react';
 const previewCars = [
   {
     name: 'Toyota Innova Crysta',
-    image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80&w=800',
+    image: 'https://cdn.carhp.in/toyota/toyota_innova_hycross_platinum_white_pearl.jpg?format=webp&width=800&q=75',
     type: '7 Seater SUV',
     transmission: 'Automatic',
     seats: 7,
@@ -14,7 +14,7 @@ const previewCars = [
   },
   {
     name: 'Suzuki Swift',
-    image: 'https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&q=80&w=800',
+    image: 'https://media.umbraco.io/suzuki-gb/smtlqp3h/image53.png',
     type: '5 Seater Hatchback',
     transmission: 'Manual',
     seats: 5,
@@ -23,7 +23,7 @@ const previewCars = [
   },
   {
     name: 'Luxury Tempo Traveller',
-    image: 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&q=80&w=800',
+    image: 'https://5.imimg.com/data5/KC/QP/GLADMIN-44334534/tempo-traveller-car-500x500.jpgre',
     type: '12-14 Seater',
     transmission: 'Manual',
     seats: 14,

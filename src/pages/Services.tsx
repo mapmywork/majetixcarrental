@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion';
-import { Plane, Car, Users, MapPin, Building2, Heart, Bus, PhoneCall } from 'lucide-react';
+import { Plane, Car, Calendar, Users, MapPin, Building2, Heart, Bus, PhoneCall } from 'lucide-react';
 
 const allServices = [
   { icon: Car, title: 'Self Drive Cars', desc: 'Enjoy the freedom of driving yourself with our well-maintained self-drive options. Perfect for weekend getaways and personal errands.' },
-  { icon: Users, title: 'Chauffeur Driven Cars', desc: 'Relax while our professional, verified drivers take the wheel. Ideal for city tours, business meetings, and stress-free travel.' },
+  { icon: Calendar, title: 'Long Term Rentals', desc: 'Flexible car rentals for a month or longer. Enjoy discounted rates and full maintenance support for extended use.' },
   { icon: Plane, title: 'Airport Pickup & Drop', desc: 'Punctual and reliable airport transfer services to and from Coimbatore International Airport. Available 24/7.' },
   { icon: MapPin, title: 'Outstation Trips', desc: 'Comfortable journeys for long-distance travel. We offer hatchbacks, sedans, and SUVs for your outstation travel needs.' },
   { icon: Heart, title: 'Family Tours', desc: 'Spacious vehicles including Innova Crysta and Ertiga for comfortable and memorable family vacations.' },
