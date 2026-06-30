@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
 import { Users, Briefcase, Settings, Zap, CheckCircle2 } from 'lucide-react';
-
-
+import tempoImage from '../assets/22.jpeg';
 const fleet5Seater = [
   { name: 'Suzuki Swift', image: 'https://media.umbraco.io/suzuki-gb/smtlqp3h/image53.png', type: 'Hatchback', trans: 'Manual', seats: 5, lug: 2, fuel: 'Petrol' },
   { name: 'Maruti Baleno', image: 'https://imgd.aeplcdn.com/642x336/n/cw/ec/102663/baleno-exterior-right-front-three-quarter-69.png?isig=0&q=80', type: 'Premium Hatchback', trans: 'Manual', seats: 5, lug: 3, fuel: 'Petrol' },
@@ -10,6 +9,8 @@ const fleet5Seater = [
   { name: 'Maruti Brezza', image: 'https://stimg.cardekho.com/pwa/img/quickverdict/Brezza-removebg-preview.png', type: 'Compact SUV', trans: 'Manual/Auto', seats: 5, lug: 3, fuel: 'Petrol' },
   { name: 'Tata Punch', image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/172825/punch-exterior-right-front-three-quarter-250.png?isig=0&q=80&q=80', type: 'Compact SUV', trans: 'Manual', seats: 5, lug: 2, fuel: 'Petrol' },
   { name: 'Tata Tiago', image: 'https://s7ap1.scene7.com/is/image/tatamotors/MysticSeaDT-0?$PO-750-500-S$&fit=crop&fmt=webp-alpha', type: 'Hatchback', trans: 'Manual', seats: 5, lug: 2, fuel: 'Petrol' },
+  { name: 'Mahindra Thar', image: 'https://imgd.aeplcdn.com/1920x1080/n/cw/ec/204996/thar-2025-exterior-right-front-three-quarter-5.png?isig=0&q=80&q=80', seats: 4, lug: 2, fuel: 'Diesel/Petrol' },
+  { name: 'Mahindra Thar Roxx', image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/124839/thar-roxx-exterior-left-front-three-quarter-3.jpeg?isig=0&q=80', type: 'Off-road SUV', trans: 'Manual/Auto', seats: 5, lug: 3, fuel: 'Diesel/Petrol' },
 ];
 
 const fleet7Seater = [
@@ -116,9 +117,9 @@ export default function Fleet() {
         <div className="mb-24 bg-white rounded-[2.5rem] overflow-hidden shadow-xl flex flex-col lg:flex-row">
           <div className="lg:w-1/2 h-[400px] lg:h-auto relative">
             <img
-              src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&q=80&w=1000"
+              src={tempoImage}
               alt="Tempo Traveller"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover object-bottom"
             />
           </div>
           <div className="lg:w-1/2 p-10 lg:p-16 flex flex-col justify-center">

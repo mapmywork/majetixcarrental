@@ -1,12 +1,13 @@
 import { MapPin, Phone, Clock } from 'lucide-react';
+import { FeedbackForm } from '../components/FeedbackForm';
 
 export function ContactMap() {
   return (
-    <section className="py-0 relative">
-      <div className="flex flex-col lg:flex-row h-auto lg:h-[600px]">
+    <section className="py-0 relative bg-primary">
+      <div className="flex flex-col lg:flex-row h-auto lg:min-h-[600px]">
         
         {/* Contact Info */}
-        <div className="lg:w-1/3 bg-primary text-white p-10 lg:p-16 flex flex-col justify-center">
+        <div className="lg:w-1/3 text-white p-10 lg:p-16 flex flex-col justify-center">
           <h2 className="text-3xl font-heading font-bold mb-8">Get In Touch</h2>
           
           <div className="space-y-8">
@@ -55,19 +56,9 @@ export function ContactMap() {
           </div>
         </div>
         
-        {/* Map */}
-        <div className="lg:w-2/3 h-[400px] lg:h-full">
-          <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.6599292850383!2d76.9945391!3d11.0827988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8f7127e9974bb%3A0xb35a0ce8e82ef525!2sKeeranatham%20Rd%2C%20Coimbatore%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
-            width="100%" 
-            height="100%" 
-            style={{ border: 0 }} 
-            allowFullScreen={true} 
-            loading="lazy" 
-            referrerPolicy="no-referrer-when-downgrade"
-            title="Majestix Drive Location"
-            className="w-full h-full object-cover"
-          />
+        {/* Review Form */}
+        <div className="lg:w-2/3 h-auto flex items-center justify-center p-6 lg:p-12">
+          <FeedbackForm />
         </div>
       </div>
     </section>

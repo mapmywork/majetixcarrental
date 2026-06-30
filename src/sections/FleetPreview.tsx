@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { Users, Briefcase, Settings, Zap } from 'lucide-react';
-
+import tempoImage from '../assets/22.jpeg';
 const previewCars = [
   {
     name: 'Toyota Innova Crysta',
@@ -23,12 +23,13 @@ const previewCars = [
   },
   {
     name: 'Luxury Tempo Traveller',
-    image: 'https://5.imimg.com/data5/KC/QP/GLADMIN-44334534/tempo-traveller-car-500x500.jpgre',
+    image: tempoImage,
     type: '12-14 Seater',
     transmission: 'Manual',
     seats: 14,
     luggage: 6,
-    fuel: 'Diesel'
+    fuel: 'Diesel',
+    objectPosition: 'object-bottom'
   }
 ];
 
@@ -57,7 +58,7 @@ export function FleetPreview() {
               className="bg-white rounded-3xl overflow-hidden shadow-[0_4px_20px_rgba(0,0,0,0.05)] hover:shadow-[0_10px_40px_rgba(19,93,255,0.1)] transition-all duration-300 group"
             >
               <div className="relative h-60 overflow-hidden bg-gray-100">
-                <img src={car.image} alt={car.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                <img src={car.image} alt={car.name} className={`w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ${car.objectPosition || 'object-center'}`} />
                 <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-4 py-1.5 rounded-full text-xs font-bold text-primary">
                   {car.type}
                 </div>
